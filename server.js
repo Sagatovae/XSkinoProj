@@ -9,9 +9,9 @@ const dir = __dirname + "/views/"
 const app = express();
 const createPath = (page) => path.resolve(__dirname, 'views', `${page}.ejs`);
 
-app.listen(process.env.PORT, (error) => {
-    error ? console.log(error) : console.log('listenning port 3000')
-})
+// app.listen(process.env.PORT, (error) => {
+//     error ? console.log(error) : console.log('listenning port 3000')
+// })
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));

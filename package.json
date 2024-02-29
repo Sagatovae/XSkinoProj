@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build",
+    "src": "package.json",
+    "use": "vercel-sapper",
     "build": "npx tailwindcss -i ./src/main.css -o ./public/styles.css --watch"
   },
   "author": "",
