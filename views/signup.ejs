@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('partials/head.ejs') %>
+<body class="bg-[#121212]">
+    <div class="relative">
+        <svg xmlns="http://www.w3.org/2000/svg" class="absolute opacity-20 z-1" viewBox="0 0 1440 320"><path fill="#1b1b1b" fill-opacity="1" d="M0,224L30,192C60,160,120,96,180,69.3C240,43,300,53,360,96C420,139,480,213,540,224C600,235,660,181,720,176C780,171,840,213,900,234.7C960,256,1020,256,1080,245.3C1140,235,1200,213,1260,202.7C1320,192,1380,192,1410,192L1440,192L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
+    </div>
+    <%- include('partials/header.ejs') %>
+</body>
+    <section class="text-gray-400 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+        <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+            <h1 class="title-font font-medium text-3xl text-white uppercase">Регистрация</h1>
+            <p class="leading-relaxed mt-4">После регистрации вам будет доступно больше функций!.</p>
+        </div>
+        <div class="lg:w-2/6 md:w-1/2 bg-[#2f2f2f] rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+            <h2 class="text-white text-lg font-medium title-font mb-5">Регистрация</h2>
+            <div class="relative mb-4">
+            <label for="full-name" class="leading-7 text-sm text-gray-300">Полное имя</label>
+            <input type="text" id="full-name" name="full-name" class="w-full bg-[#505050] rounded border border-[#434343]  focus:ring-2  text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <div class="relative mb-4">
+            <label for="email" class="leading-7 text-sm text-gray-300">Электронная почта</label>
+            <input type="email" id="email" name="email" class="w-full bg-[#505050] rounded border border-[#434343]  focus:ring-2  text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <button class="text-white bg-[#9D303F] border-0 py-2 px-8 focus:outline-none hover:scale-105 rounded text-lg duration-150 hover:rounded-lg">Зарегистрироваться</button>
+            <p class="text-xs text-gray-400 mt-3">Регистрируясь, вы соглашаетесь с пользовательским соглашением.</p>
+        </div>
+        </div>
+    </section>
+</body>
+</html>
