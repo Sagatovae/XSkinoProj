@@ -3,8 +3,7 @@
     "builds": [
       {
         "src": "server.js",
-        "use": "@vercel/node",
-        "build": "npx tailwindcss -i ./src/main.css -o ./public/styles.css --watch"
+        "use": "@vercel/node"
       }
     ],
     "routes": [
