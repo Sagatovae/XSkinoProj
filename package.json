@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "src": "package.json",
-    "use": "vercel-sapper",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tailwindcss -i ./src/main.css -o ./public/styles.css --watch"
   },
   "author": "",
